@@ -1,0 +1,51 @@
+/* 기본 설정 */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 타이틀 영역 */
+h1 {
+    font-weight: 700;
+    color: #d32f2f;
+}
+
+/* 섹션 제목 */
+h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* 이미지 스타일 */
+img.rounded-circle {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 텍스트 여백 */
+.lead {
+    margin-top: 20px;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* 버튼 스타일 */
+.btn {
+    margin: 6px;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 6px 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* 영역 구분 */
+.row {
+    margin-top: 40px;
+}
